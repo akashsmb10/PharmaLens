@@ -1,0 +1,15 @@
+{
+  "version": "phase5-v1",
+  "historical_start": "2023-01-01", "historical_end": "2025-12-01",
+  "baseline_year": 2024, "recent_year": 2025,
+  "forecast_as_of": "2025-12-01",
+  "weights": {"activity": 0.25, "change": 0.20, "cost": 0.20, "forecast": 0.20, "quality": 0.15},
+  "high_priority": 70, "moderate_priority": 40,
+  "minimum_holdout_forecasts": 12,
+  "bias_review_pct": 2, "coherence_review_pct": 1,
+  "cost_change_review_pct": 20, "item_growth_review_pct": 10,
+  "rank_instability_fraction": 0.25,
+  "scenario_changes_pct": [-10, -5, 0, 5, 10],
+  "mix_transfer_pp": [1, 2, 5],
+  "evidence_classes": ["Verified descriptive finding", "Validated historical model result", "Hypothetical scenario", "Exploratory signal", "Insufficient evidence"]
+}

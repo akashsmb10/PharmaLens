@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+config/kernels/
+data/raw/*.json
+data/processed/
+outputs/
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+*.p12
+.aws/
+.codex/
+.agents/
+credentials*.json
+secrets*.json
+
+# Local caches and workstation state
+.DS_Store
+Thumbs.db
+*.duckdb.wal
+*.log
+pytest-cache-files-*/
+*.tmp
+*.bak
+
+# Reviewed runtime package is explicit; other generated evidence stays local
+release/private/

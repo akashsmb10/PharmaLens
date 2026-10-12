@@ -1,0 +1,27 @@
+{
+  "status": "Local Phase 7 checks complete; public release pending owner decisions",
+  "numerical": {
+    "checks": 1571,
+    "failed": 0,
+    "sha256": "6d17d683db6ff2e67a22a8a9eba7fa30c279045dd72db6d2079eb2fac9a61bce"
+  },
+  "numerical_repeat_identical": true,
+  "static_passed": true,
+  "security": {
+    "credential_candidates": 0,
+    "scanned_text_files": 319
+  },
+  "tests": {
+    "total": 324,
+    "passed": 324,
+    "failed": 0,
+    "skipped": 0,
+    "exit_code": 0
+  },
+  "protected_artifacts_unchanged": 497,
+  "browser_passed": true,
+  "browser_viewport_checks": 24,
+  "clean_runtime_passed": true,
+  "remote_publication": false,
+  "native_powerpoint_visual_review": true
+}

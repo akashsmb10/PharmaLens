@@ -1,0 +1,11 @@
+{
+  "minimum_history_months": 24,
+  "minimum_total_items": 36000,
+  "minimum_coverage_pct": 100,
+  "maximum_internal_gaps": 0,
+  "sensitivity_minimum_history": [24, 36],
+  "sensitivity_minimum_total_items": [3600, 36000, 360000],
+  "sensitivity_coverage_pct": [90, 100],
+  "cost_absolute_tolerance_gbp": 0.01,
+  "ratio_absolute_tolerance": 1e-10
+}

@@ -1,0 +1,25 @@
+flowchart TD
+    source["NHSBSA monthly PCA"]
+    ingest["Immutable API snapshots"]
+    quality["Quality and provenance checks"]
+    clean["Monthly analytical data"]
+    sql["DuckDB fact and SQL views"]
+    stats["Statistical diagnostics"]
+    forecast["Frozen rolling-origin forecasts"]
+    decision["Monitoring and scenarios"]
+    marts["Validated reporting marts"]
+    dashboard["Streamlit and Plotly"]
+    source --> ingest
+    ingest --> quality
+    quality --> clean
+    clean --> sql
+    sql --> stats
+    stats --> forecast
+    forecast --> decision
+    decision --> marts
+    marts --> dashboard
+    validation["Hashes, contracts, reconciliation, tests and browser QA"]
+    validation -.-> quality
+    validation -.-> forecast
+    validation -.-> marts
+    validation -.-> dashboard

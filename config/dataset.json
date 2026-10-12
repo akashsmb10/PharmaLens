@@ -1,0 +1,15 @@
+{
+  "dataset_id": "prescription-cost-analysis-pca-monthly-data",
+  "publisher": "NHS Business Services Authority",
+  "source_url": "https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data",
+  "api_base": "https://opendata.nhsbsa.net/api/3/action/",
+  "license": "Open Government Licence 3.0",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "start_month": "2023-01-01",
+  "end_month": "2025-12-01",
+  "filters": {"BNF_CHEMICAL_SUBSTANCE_CODE": "0212000B0"},
+  "chemical_name": "Atorvastatin",
+  "page_size": 5000,
+  "synthetic_seed": 42,
+  "schema_optional_fields_introduced": {"PHARMACY_ADVANCED_SERVICE": "2024-02-01"}
+}

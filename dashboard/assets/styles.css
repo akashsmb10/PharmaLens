@@ -1,0 +1,7 @@
+.stApp {font-family:Arial,sans-serif;}
+[data-testid="stMetric"] {background:#FFFFFF;border:1px solid #D8E1EB;border-radius:8px;padding:1rem;}
+[data-testid="stMetricLabel"] {color:#36516D;}
+[data-testid="stMetricValue"] {font-size:1.65rem;}
+[data-testid="stSidebar"] {border-right:1px solid #D8E1EB;}
+.stMainBlockContainer {padding-top:2rem;max-width:1500px;}
+@media(max-width:800px) {[data-testid="stMetricValue"] {font-size:1.25rem;} .stMainBlockContainer {padding-left:1rem;padding-right:1rem;}}
